@@ -680,7 +680,12 @@
     .mui-style-13uux23 {
       background-color: #ACD1AF;
      
-      box-shadow: 0px 0.5px 30px rgba(160, 184, 201, 0.25);
+
+      -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+           box-shadow: 0px 0.5px 30px rgba(160, 184, 201, 0.25);
+      
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
